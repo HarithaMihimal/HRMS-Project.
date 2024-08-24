@@ -1,0 +1,71 @@
+.loginPage {
+    background: url('Images/employee ms.jpeg');
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("Images/employee ms.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.loginForm {
+    background-color: rgba(1, 32, 93, 0.6);
+    color: white;
+}
+
+.employee_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.empImg {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.custom-button {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #d7d6d6;
+  padding: 20px;
+
+
+}
+/* Add some margin to the bottom of each form group */
+.mb-3 {
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Optional: Style the container background or add more styles as needed */
+
+
+input[type="date"] {
+  width: 100%;
+  padding: 0.375rem 2.5rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+}
+
+.form-control[id="leaveType"] {
+  width: 100%;
+  padding: 0.375rem 2.85rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+}
